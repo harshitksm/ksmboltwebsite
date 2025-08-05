@@ -42,6 +42,15 @@ body {
   animation: fade-out 0.5s ease-out 2.5s forwards;
 }
 
+/* Custom navy and brown color utilities */
+.navy-200 {
+  color: #cbd5e1;
+}
+
+.brown-200 {
+  color: #fbbf24;
+}
+
 @keyframes scroll-left {
   0% {
     transform: translateX(0);
