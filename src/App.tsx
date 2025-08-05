@@ -168,6 +168,7 @@ function App() {
                   Believe In
                 </h1>
                 <p className="text-xl text-teal-100 mb-8 leading-relaxed max-w-lg">
+                </p>
                 <p className="text-xl text-gray-300 mb-8 leading-relaxed max-w-lg">
                   Our principles have been shaped by over 140 years working alongside members of the KSM family. Today, those principles guide our growth.
                 </p>
@@ -393,7 +394,6 @@ function App() {
                   excerpt: "Analysis of international markets, currency fluctuations, and geopolitical factors affecting investment strategies worldwide."
                 }
               ]).map((update, index) => (
-                <div key={index} className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 flex-shrink-0 w-80">
                 <div key={index} className="bg-navy-800 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 flex-shrink-0 w-80">
                   <div className="text-gold-600 text-sm font-medium mb-2">{update.date}</div>
                   <h3 className="text-lg font-medium text-white mb-3 whitespace-normal">{update.title}</h3>
@@ -423,7 +423,6 @@ function App() {
                 We're inspired<br />
                 that you're here.
               </h2>
-              <p className="text-xl text-blue-100 mb-8 leading-relaxed">
               <p className="text-xl text-gray-300 mb-8 leading-relaxed">
                 We can connect you with the experts that can help guide your financial achieving your unique goals.
               </p>
